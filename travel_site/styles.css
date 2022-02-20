@@ -1,0 +1,186 @@
+body {
+    color: rgba(33, 36, 30,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 14pt;
+    background-image: url("vangogh.jpeg");
+    height: 4050px;
+    background-size: contain;
+   }
+
+#container {
+	width: 768px;
+	height: auto;
+	margin: auto;
+	background-color: rgba(235,242,247,1.00);
+}
+
+aside {
+	width: 150px;
+	height: 1200px;
+	float: left;
+	background-color: rgba(207,150,78,1.00);
+	color: rgba(33, 36, 30,1.00);
+}
+
+header {
+	width: 768px;
+	height: 247px;
+	background-color: #008000;
+	background-image: url(provence.png);
+}
+
+main {
+    width: 591px;
+    height: 3700px;
+    padding: 10pt;
+    float: left;
+	background-color: rgba(235,242,247,1.00);
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: haboro-contrast-normal,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20pt;
+    color: rgba(169,154,80,1.00);
+}
+
+
+
+p{
+    font-family: haboro-contrast-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+	color: rgba(60, 36, 30,1.00);
+}
+
+h3 {
+	padding: 10px;
+	font-size: 12pt;
+}
+
+/*Clear the float so the footer shows up in the right place again*/
+
+footer {
+    width: 768px;
+    height: 50px;
+	clear: both;
+    background-color: rgba(230,195,116,1.00);
+}
+img {
+    padding: 10px;
+    float: right;
+}
+
+
+
+.floatLeft {
+	float: left;
+}
+
+
+
+nav {
+	width: 768px;
+	height: 85px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 80px;
+	font-family: timberline,sans-serif;	
+    font-size: 15pt;
+    padding-top: 17px;
+}
+
+#container nav ul {
+	margin: auto;
+	width: 565px;
+}
+
+	
+nav a:link {
+	color: rgba(173, 175, 99, 1.00);
+	text-decoration: none;	
+	padding: 10px;
+}
+nav a:visited {
+	text-decoration: none;
+	color: rgba(199,191,205,1.00);
+}
+nav a:hover {
+	text-decoration: none;
+	color: rgba(235,242,247,1.00);
+	background-color: rgba(230, 195, 116, 1.00);
+	padding: 10px;
+	border-radius: 1000px;
+}
+nav a:active {
+	text-decoration: none;
+	color: rgba(33, 36, 30,1.00);
+}
+
+
+
+
+
+.submit_btn {
+	width: 160px;
+	height: 30px;
+	border-radius: 10px;
+	background-color:  rgba(230, 195, 116, 1.00);
+	color: rgba(235,242,247,1.00);
+	font-size: 16px;
+	
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px rgba(33, 36, 30,1.00);
+	box-shadow: 6px 6px 35px 1px rgba(33, 36, 30,1.00);
+}
+
+	
+
+
+span {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
+	font-size: 15pt;
+}
+
+
+ol {
+	 font-family: haboro-contrast-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+	color: rgba(60, 36, 30,1.00);
+}
+
+
+tbody {
+	 font-family: haboro-contrast-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+	color: rgba(60, 36, 30,1.00);
+}
+
+
+ul {
+	 font-family: haboro-contrast-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+	color: rgba(60, 36, 30,1.00);
+}
+a {
+
+}	
+
